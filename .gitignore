@@ -8,3 +8,7 @@
 
 access.log
 error.log
+
+node_modules
+package-lock.json
+.sass-cache
