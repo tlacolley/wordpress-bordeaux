@@ -1,0 +1,59 @@
+#primary{
+    main{
+    // .firstArticle{
+    // }
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+
+    .actualite{
+        div{
+            a{
+                color: black;
+            }
+            h3{
+                text-align: center;
+                font-size: 1.5rem;
+                margin: 2% auto;
+            }
+        img{
+            min-width: 100%;
+        }
+        }
+
+        div:first-child{
+
+
+        }
+    }
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+#primary{
+    main{
+        margin: auto 15%;
+        grid-template-columns: repeat(4,1fr);
+        .actualite{
+            grid-column: 1/4;
+            display: grid;
+            grid-gap: 1rem;
+            grid-template-columns: repeat(3,1fr);
+        div:first-child{
+            grid-column: 1/4;
+
+        }
+
+        }
+    }
+}
+
+
+}
